@@ -1,0 +1,143 @@
+h1 {
+    color: green;
+}
+body{
+    font-family: 'Chivo', sans-serif;
+    height:100vh;
+
+    
+    }
+
+section {
+   background-size: inherit;
+    height:inherit;
+    background: #111725;
+    position: relative;
+    margin: 10px;
+    
+  
+}
+.pod{
+    position: relative;
+    top: 2rem;
+    left:4rem;
+    
+}
+.pod > p{
+    color:#dcdee2;
+    font-size: 3rem;
+}
+.pod > span{
+    color:#50e6aa;
+}
+    .singer-image{
+        height:20rem;
+        width: 50rem;
+        background: url("https://mc.webpcache.epapr.in/mcms.php?size=medium&in=https://mcmscache.epapr.in/post_images/website_350/post_15682874/thumb.jpg");
+        background-repeat: no-repeat;
+        background-color: #57e4ad;
+        background-size: cover;
+        background-blend-mode: luminosity;
+        position: absolute;
+        top:7rem;
+        right:0rem;
+        overflow:hidden;
+        }
+
+    .card-details{
+        height: 20rem;
+        width:40%;
+        background: #111725;
+        position: absolute;
+        padding:3rem;
+        top: 13rem;
+        margin-left: 4rem;
+        z-index: 1;
+    }
+    .title{
+        text-transform: uppercase;
+        color:rgb(215 220 223);
+        font-size: 30px;
+        margin-bottom: 0px;
+     
+    }
+    span {
+        color:rgb(40 103 86);
+    }
+    .info {
+        
+        font-size: 0.6rem;
+        color: green;
+        height: 30px;
+        width:50%;
+          }
+          .info > p{
+              line-height:1rem;
+              color:#707583;
+          }
+          .logos > p{
+              font-size: 0.6rem;
+              color:#5a6689;
+          }
+          .logos {
+              display:flex;
+              justify-content: space-between;
+              padding-top:5rem;
+              padding-bottom:5rem;
+          }
+
+
+@media (max-width:600px)
+{
+    .singer-image {
+        background:none;
+
+    }
+    .pod{
+        /*position:fixed;
+        top:15%;
+        left:38%;*/
+        width:80%;
+       
+        text-align: center;
+        }
+
+    .card-details{
+        
+        /*position:fixed;
+        top:50%;
+        left:-5%;*/
+       margin-left:1.5rem;
+       margin-right:1rem;
+        width:90%;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+       }
+       section {
+           display:flex;
+           flex-direction: column;
+           justify-content: space-between;
+       }
+      .info {
+          font-size: 0.8rem;
+          width:95%;
+           }
+           .info > p{
+               text-align: justify;
+               line-height: 1.5rem;
+           }
+    
+     .logos{
+         width:90%
+         }
+         .logos > p{
+            font-size: 0.7rem;
+            
+        }
+    
+}
+
+                
